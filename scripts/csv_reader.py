@@ -14,7 +14,7 @@ import csv
 script_dir = Path(__file__).resolve().parent
 data_dir = script_dir.parent / "data"
 
-def readData(dataFile):
+def readCSV(dataFile):
     """ 
         Read from CSV file, save in a dictionary variable (row), 
         pass the variable back to the main
@@ -26,7 +26,7 @@ def readData(dataFile):
 # ==========================================================
 
 # Creating a dictionalry and saving the content into a CSV file
-def writeData(rows): 
+def writeCSV(rows): 
     """ 
         receive the data from the main, calculate the total price, the data on a new CSV file
     """  
@@ -47,14 +47,14 @@ def writeData(rows):
 
 # Main Program
 dataFile = "sales.csv"
-rows = readData(dataFile)
+rows = readCSV(dataFile)
 for row in rows:
     print(row)
     
-writeData(rows)
+writeCSV(rows)
 
 dataFile = "sales_summary.csv"
-rows = readData(dataFile)
+rows = readCSV(dataFile)
 for row in rows:
     print(row)
 

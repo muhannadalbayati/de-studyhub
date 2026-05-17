@@ -1,0 +1,20 @@
+[
+    {
+        "product": "Apple",
+        "category": "Fruit",
+        "price": 0.5,
+        "in_stock": true
+    },
+    {
+        "product": "Carrot",
+        "category": "Vegetable",
+        "price": 0.4,
+        "in_stock": true
+    },
+    {
+        "product": "Broccoli",
+        "category": "Vegetable",
+        "price": 0.9,
+        "in_stock": true
+    }
+]
