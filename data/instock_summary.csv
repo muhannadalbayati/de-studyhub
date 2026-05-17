@@ -1,0 +1,4 @@
+product,category,price,quantity,total_stock_value
+Apple,Fruit,0.5,10,5.0
+Carrot,Vegetable,0.4,25,10.0
+Broccoli,Vegetable,0.9,15,13.5
